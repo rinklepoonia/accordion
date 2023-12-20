@@ -54,8 +54,10 @@
     line-height: normal;
 }
 
+
+
 .accordionpara {
-    color: var(--Gray, #808080);
+    color: #808080;
     font-family: 'Inter', sans-serif;
     font-size: var(--fs-sm);
     font-style: normal;
@@ -83,11 +85,14 @@
     border: 1px solid var(--Border, rgba(0, 0, 0, 0.10));
     padding: 17px 11px 13px 19px;
     margin-bottom: 10px;
-    cursor: pointer;
     transition: all 300ms linear;
 }
 
-.active .show {
+.accordionHead {
+    cursor: pointer;
+}
+
+.accordion1.active .accordionpara {
     height: unset;
 }
 
@@ -96,6 +101,6 @@
     border: 1px solid var(--Blue, #128DFF);
 }
 
-.accordion1.active .arrowIcon {
+.accordionHead.active .arrowIcon {
     transform: rotate(180deg);
 }
