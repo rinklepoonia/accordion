@@ -1,0 +1,18 @@
+1.. e=element ko get krne k leye
+
+accordion1 p click kru to mera arrowIcon rotat hona chai{
+    on active p 
+}
+accordion1 p click kru to mera accordionpara unhide ho jana chai {
+first give height 0 to accordionpara
+}
+
+
+accordionpara ko get krenge koi bhi elemnt se ---(e)
+#us p hm function chlaye ge on click p
+# hm koi bhi value denge 
+# next hm us p condaition lgayenge ki ye value kb kam kre
+to hmne condaition lgai ki :-
+= accordian1 pe hm active ko remove krnge
+=e.toggle krdende active me( active mhe h ki border change rotate arow hight-unset)
+
